@@ -1,12 +1,15 @@
 #include "main.h"
 /**
-* _isdigit - function that check if it's a digit
-* @c: takes in a character/digit
-* Return: 1 if digit and 0 if anything else
-*/
+ * _isdigit - check the code for alx School students.
+ *
+ * @c: is an integer param
+ *
+ * Return: Always 0.
+ */
+
 int _isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
+	if (c >= 48 && c <= 57)
 	{
 	return (1);
 	}
@@ -14,4 +17,4 @@ int _isdigit(int c)
 	{
 	return (0);
 	}
-}	
+}
